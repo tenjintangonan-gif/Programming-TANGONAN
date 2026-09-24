@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ScheduleTest </title>
+
+    <style>
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse; /* Merges double borders into a single line */
+            width: 80%;               /* Optional: Makes the table full-width */
+            height: 80%;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid #000000; /* Adds a 1px solid black border around cells */
+            padding: 8px;              /* Optional: Adds space inside the cells */
+            text-align: center;          /* Optional: center */
+        }
+
+        th {
+            background-color: #d0cfcfe3; /* Optional: Gives headers a light gray background */
+        }
+
+        .teacher { font-weight: bold; font-style: italic; color: rgb(238, 0, 0);}
+        </style>
+</head>
+<body>
+    <h1 style="text-align:center;"> COOPER 12 </h1>
+    <h2 style="text-align: center;"> Tenjin Tangonan</h2>
+
+    <table>
+        <tr>
+            <td> 12:30PM </td>
+            <td colspan="5"> ARRIVAL </td>
+        </tr>
+
+         <tr>
+            <td> 12:30-1:20PM </td>
+            <td colspan="5" rowspan="2"> 
+            <div>Computer Programming Java</div>
+            <div class="teacher">DE VERA</div>
+            </td>
+            
+        </tr>
+
+         <tr>
+            <td> 1:20-2:10PM </td>
+        </tr>
+
+         <tr>
+            <td> 2:10-3:00PM </td>
+            <td colspan="2">
+                <div colspan="2"> Pagsulat sa Filipino sa Piling Larang </div>
+                <div class="teacher">ODONO</div>
+            </td>
+            <td colspan="3">
+                <div colspan="3"> Entrepeneurship </div>
+                <div class="teacher">PAEZ</div>
+            </td>
+        </tr>
+
+         <tr>
+            <td> 3:00-3:15PM </td>
+            <td colspan="5"> BREAK </td>
+        </tr>
+
+         <tr>
+            <td> 3:15-4:05PM </td>
+            <td> 
+                <div> Homeroom Guidance </div>
+                <div class="teacher"> MANTALA</div>
+            </td>
+            <td rowspan="3">
+                <div> English for Academic Professional Purposes </div>
+                <div class="teacher"> MANTALA </div>
+            </td>
+            <td rowspan="2"> 
+                <div> Pagsulat sa Filipino sa Piling Larang</div>  
+                <div class="teacher"> ODONO </div>  
+            </td>
+            <td rowspan="2">
+                <div> Physical Education and Health 4</div>  
+                <div class="teacher"> DEMEGILLO </div>  
+            </td>
+            <td>
+                <div> Entrepeneurship</div>  
+                <div class="teacher"> PAEZ </div>  
+            </td>
+        </tr>
+
+         <tr>
+            <td> 4:05-4:55PM </td>
+            <td rowspan="2">
+                <div> English for Academic Professional Purposes </div>
+                <div class="teacher"> MANTALA </div>
+            </td>
+            <td>
+                <div> Pagsulat sa Filipino sa Piling Larang </div>
+                <div class="teacher"> ODONO </div>
+            </td>
+        </tr>
+
+         <tr>
+            <td> 4:55-5:45PM </td>
+            <td>
+                <div> Entrepeneurship </div>
+                <div class="teacher"> PAEZ</div>
+            </td>
+            <td colspan="2"> VACANT </td>
+        </tr>
+
+         <tr>
+            <td> 5:45PM</td>
+            <td colspan="5"> DEPARTURE </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
