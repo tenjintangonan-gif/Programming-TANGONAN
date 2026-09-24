@@ -2,3 +2,5 @@
 [SCHEDULE TEST](Schedule.html)
 
 [SAMPLE WEBPAGE](sample.html)
+
+[FORM SAMPLES](Schedule.html)
