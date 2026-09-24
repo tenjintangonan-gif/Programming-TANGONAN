@@ -5,3 +5,5 @@
 [SAMPLE WEBPAGE](sample.html)
 
 [FORM SAMPLES](Forms.html)
+
+![Haec schola mihi tantum dolorem affert.](https://greatcharacters.miraheze.org/wiki/The_Boiled_One)
