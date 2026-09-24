@@ -3,4 +3,4 @@
 
 [SAMPLE WEBPAGE](sample.html)
 
-[FORM SAMPLES](Schedule.html)
+[FORM SAMPLES](Forms.html)
