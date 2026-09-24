@@ -1,2 +1,2 @@
 # Tangonan 12-Cooper
-[link with title](https://github.com/tenjintangonan-gif/Programming-TANGONAN/blob/main/Schedule.html/ "Cooper Schedule")
+[link with title](https://tenjintangonan-gif.github.io/Programming-TANGONAN/Schedule.html)
