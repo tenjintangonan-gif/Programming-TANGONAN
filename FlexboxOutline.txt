@@ -1,0 +1,252 @@
+# Flexbox: Alignment, Direction, Wrapping, and Flexible Sizing
+
+## 1. Introduction — 0:00–0:40
+
+**[On screen: Title — “CSS Flexbox: Alignment, Direction, Wrapping, and Flexible Sizing”]**
+
+**Speaker:**
+
+“Hello everyone! Today, we're going to learn about **Flexbox**, one of the most useful layout systems in CSS.
+
+Flexbox allows us to arrange elements inside a container in a much easier and more flexible way than using traditional positioning.
+
+In this video, we'll focus on four important concepts: **alignment, direction, wrapping, and flexible sizing**.
+
+By the end, we'll create a simple layout and see how these properties actually work in code.”
+
+---
+
+# 2. Concept Explanation — 0:40–2:00
+
+## A. Alignment
+
+**[Show diagram of a flex container with boxes.]**
+
+“First is **alignment**.
+
+Flexbox gives us properties such as `justify-content` and `align-items`.
+
+`justify-content` controls how items are positioned along the **main axis**.
+
+For example, we can use:
+
+```css
+justify-content: center;
+```
+
+to place our items in the center.
+
+Meanwhile, `align-items` controls their position along the **cross axis**.
+
+For example:
+
+```css
+align-items: center;
+```
+
+can vertically center the items when the direction is horizontal.”
+
+---
+
+## B. Direction
+
+“Next is **direction**.
+
+The `flex-direction` property determines which direction our items are arranged.
+
+The default is:
+
+```css
+flex-direction: row;
+```
+
+which places items from left to right.
+
+We can also use:
+
+```css
+flex-direction: column;
+```
+
+which places them from top to bottom.”
+
+---
+
+## C. Wrapping
+
+“Another useful property is `flex-wrap`.
+
+Normally, Flexbox tries to keep all of the items on one line.
+
+But if we use:
+
+```css
+flex-wrap: wrap;
+```
+
+the items can move onto another line when there isn't enough space.
+
+This is especially useful when creating layouts that need to work on different screen sizes.”
+
+---
+
+## D. Flexible Sizing
+
+“Finally, we have **flexible sizing**.
+
+The `flex` property allows items to grow or share available space.
+
+For example:
+
+```css
+flex: 1;
+```
+
+tells an item to take up available space relative to the other flexible items.
+
+This means we don't always have to manually set widths for every element.”
+
+---
+
+# 3. Live Code Walkthrough — 2:00–4:20
+
+**[On screen: VS Code with an HTML file.]**
+
+**Speaker:**
+
+“Now let's see these concepts in action.
+
+First, we'll create a simple container with three boxes.”
+
+**[Type:]**
+
+```html
+<div class="container">
+    <div class="box">One</div>
+    <div class="box">Two</div>
+    <div class="box">Three</div>
+</div>
+```
+
+“Now let's style the container.”
+
+**[Type:]**
+
+```css
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+```
+
+“The most important line here is `display: flex`.
+
+This activates Flexbox for the container.
+
+`justify-content: center` centers the boxes along the main axis, while `align-items: center` aligns them along the cross axis.
+
+The `gap` property simply adds space between the boxes.”
+
+**[Run the page.]**
+
+“As you can see, our three boxes are now arranged using Flexbox.”
+
+---
+
+### Demonstrating Direction
+
+“Let's change the direction.”
+
+**[Change:]**
+
+```css
+flex-direction: column;
+```
+
+“Now the boxes are arranged vertically instead of horizontally.”
+
+**[Run/refresh page.]**
+
+“So with just one property, we can completely change the layout direction.”
+
+---
+
+### Demonstrating Wrapping
+
+“Next, let's demonstrate wrapping.”
+
+**[Change:]**
+
+```css
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+```
+
+“Now, if we have more boxes than can fit on one line, Flexbox can move the extra boxes onto a new line.”
+
+**[Add several boxes.]**
+
+```html
+<div class="box">One</div>
+<div class="box">Two</div>
+<div class="box">Three</div>
+<div class="box">Four</div>
+<div class="box">Five</div>
+<div class="box">Six</div>
+```
+
+“This makes our layout much more adaptable.”
+
+---
+
+### Demonstrating Flexible Sizing
+
+“Finally, let's look at flexible sizing.”
+
+**[Add:]**
+
+```css
+.box {
+    flex: 1;
+}
+```
+
+“Now each box can grow and share the available space inside the container.
+
+Instead of giving every box a specific width, Flexbox distributes the space between them.”
+
+**[Run/refresh page.]**
+
+“And now our boxes automatically share the available width.”
+
+---
+
+# 4. Summary and Conclusion — 4:20–5:00
+
+**[On screen: Four keywords appear.]**
+
+**Speaker:**
+
+“So, let's quickly review what we learned.
+
+**First, alignment:**
+`justify-content` and `align-items` help us position items inside a flex container.
+
+**Second, direction:**
+`flex-direction` controls whether items are arranged in a row or a column.
+
+**Third, wrapping:**
+`flex-wrap` allows items to move onto additional lines when necessary.
+
+And **finally, flexible sizing:**
+the `flex` property allows items to grow and share available space.
+
+Flexbox might seem complicated at first, but once you understand these basic properties, creating layouts becomes much easier.
+
+And that's the basics of **Flexbox: alignment, direction, wrapping, and flexible sizing.**
+
+Thanks for watching!”
