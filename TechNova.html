@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Employee Portal Login </title>  <!-- Page title -->
+
+        <!-- css for the page -->
+    <style>
+        body {  
+           background-color: rgb(221, 202, 232);    
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+            border: 2px solid rgb(142, 55, 192);
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        thead{
+            background-color: rgb(195, 147, 240);
+        }
+        h2{
+            color: white;
+        }
+        tfoot td {
+        padding: 10px 15px;
+        }
+        tfoot{
+            padding: 10px 15px;
+        }
+    
+        input[type="reset"],input[type="submit"]{
+            padding: 4px 7px;
+            background-color: rgb(215, 151, 222);
+            border-radius: 10px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>  <!-- permits usage of form styles -->
+        <table> <!-- permits usage of tables -->
+            <thead>
+                <tr>
+                    <td colspan="2">
+                        <h2> Portal Login </h2> <!-- header-->
+                    </td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td> Username: </td>
+                    <td><input type="text" placeholder="Enter Username"></td>   <!-- creates an input instance-->
+                </tr>
+
+                <tr>
+                    <td> Password: </td>
+                    <td><input type="password" placeholder="Enter Password"></td>  <!-- creates an input instance-->
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"> Created by: Tenjin C. Tangonan 12-Cooper</td> <!-- footer -->
+                </tr>
+            </tfoot>
+
+        </table>
+    </form>
+</body>
+</html>
