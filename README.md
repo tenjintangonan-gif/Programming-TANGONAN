@@ -5,3 +5,5 @@
 [SAMPLE WEBPAGE](sample.html)
 
 [FORM SAMPLES](Forms.html)
+
+[PT2: TechNova Login DEMO](TechNova.html)
