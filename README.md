@@ -7,3 +7,4 @@
 [FORM SAMPLES](https://tenjintangonan-gif.github.io/Programming-TANGONAN/Forms.html)
 
 [PT2: TechNova Login DEMO](https://tenjintangonan-gif.github.io/Programming-TANGONAN/TechNova.html)
+[JavaScript Math functions](https://tenjintangonan-gif.github.io/Programming-TANGONAN/Jscript.html)
