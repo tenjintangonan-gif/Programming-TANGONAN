@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio | Tangonan </title>
+    <link rel="stylesheet" href="siteStyle.css">
+    <style>
+        .box {
+            height: 100px;
+            background-color: #aae5a4;
+            border-radius: 11px;
+            text-align: center;
+            color:rgb(4, 62, 128);
+        }
+        .boxes{
+            display: grid;
+            grid-template-columns:
+            repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
+        <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link active" href="menu.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="boxes">
+        <p class="box"> <a href="Forms.html"> Form Elements </a></p>
+        <p class="box"> <a href="loginDemo.html">  Login </a></p>
+        <p class="box"> <a href="#"> Console </a></p>
+        <p class="box"> <a href="#"> Calculator </a></p>
+        <p class="box"> <a href="Asynchronous.html"> Discount Calculator </a></p>
+        <p class="box"> <a href="#"> .NET dev Profile </a></p>
+        <p class="box"> <a href="Schedule.html"> Class Schedule </a></p>
+        <p class="box"> <a href="#"> Student Array </a></p>
+        <p class="box"> <a href="gridSample.html"> Grid </a></p>
+    </div>
+</body>
+</html>

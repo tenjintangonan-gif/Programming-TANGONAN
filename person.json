@@ -1,0 +1,27 @@
+[
+    {
+    "name":"Irelia Xan",
+    "age": 22,
+    "region":"Ionia",
+    "playable": true,
+    "abilities":["Ionian Fervour","Bladesurge","Defiant Dance","Duelist's Dance","Vanguard's Edge"]
+},{ 
+    "name":"Akali Jhomen Tethi",
+    "age": 20,
+    "region":"Ionia",
+    "playable": true,
+    "abilities":["Assassin's Mark","Five-Point Strike","Twilight Shroud","Shuriken Flip","Perfect Execution"]
+},{
+    "name":"Yone",
+    "age": 34,
+    "region":"Ionia",
+    "playable": true,
+    "abilities":["The Way of The Hunter","Mortal Steel","Spirit Cleave","Soul Unbound","Fate Sealed"]
+},{
+    "name":"Luxanna Crownguard",
+    "age": 22,
+    "region":"Demacia",
+    "playable": true,
+    "abilities":["Illumination","Light Binding","Prismatic Barrier","Lucent Singularity","Final Spark"]
+}
+]

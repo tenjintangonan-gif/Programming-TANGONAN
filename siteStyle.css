@@ -1,0 +1,54 @@
+        .navbar {
+            background-color: #74a9af; /* Primary Navy */
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .nav-list {
+            display: flex; /* Aligns items side-by-side horizontally */
+            flex-direction: row; /* Sets main axis left-to-right */
+            justify-content: flex-start; /* Packs items toward start of menu */
+            align-items: center; /* Centers items vertically */
+            list-style-type: none; /* Removes default list bullet points */
+            margin: 0; /* Clears browser default margins */
+            padding: 0; /* Clears browser default padding */
+        }
+        .nav-link {
+            display: block; /* Expands clickable box to fill padding */
+            padding: 14px 20px; /* Breathing room inside target box */
+            color: #054c68; /* High-contrast text color */
+            text-decoration: none; /* Removes standard underline */
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .nav-link:link {
+            color: #054c68;
+        }
+        /* 2. Visited link state */
+        .nav-link:visited {
+            color: #defffb;
+        }
+        /* 3. Mouse hover state */
+        .nav-link:hover {
+            background-color: #86c9c2;
+            color: #FFFFFF;
+        }
+        /* 4. Keyboard focus state (Accessibility / WCAG compliance) */
+        .nav-link:focus {
+            outline: 3px solid #06386d;
+            outline-offset: -3px;
+            background-color: #5c8191;
+        }
+        /* 5. Active click-press state */
+        .nav-link:active {
+            background-color: #74a9af;
+            transform: translateY(1px);
+        }
+        /* 6. Current page highlight class */
+        .nav-link.active {
+            background-color: #74a9af;
+        }
+        .title {
+            text-align: center;
+        }

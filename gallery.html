@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Gallery | Tangonan </title>
+    <link rel="stylesheet" href="siteStyle.css">
+    <style>
+        .image-stack {
+            display: flex;
+            flex-direction:row; /* Stacks items vertically */
+            align-items: center;    /* Centers the images horizontally on the screen */
+            gap: 20px;              /* Adds a uniform 20px space between each image */
+        }
+
+        .image-stack img {
+            width: 30%;             /* Adjusts all 3 images to take up 60% of the screen width */
+            height: auto;           /* Keeps them proportional */
+        }
+    </style>
+</head>
+<body>
+   <nav class="navbar" role="navigation" aria-label="Main Navigation">
+        <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link active" href="menu.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1> Welcome to my Gallery </h1>
+    <h3> This is a collection of Winterblessed Irelia's Iteration throughout the years.</h3>
+    <div class="image-stack">
+        <img src="JsonDemo/WinterBlessedIrelia3.0.png" style="width: 33.3%; height: auto;" class="vertical-img">
+        <img src="JsonDemo/WinterBlessedIrelia2.0.jpg" style="width: 33.3%; height: auto;" class="vertical-img">
+        <img src="JsonDemo/WinterBlessedIrelia1.0.jpg" style="width: 33.3%; height: auto;" class="vertical-img">
+    </div>
+</body>
+</html>
