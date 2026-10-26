@@ -12,4 +12,4 @@
 
 [Asynchronous Activity](https://tenjintangonan-gif.github.io/Programming-TANGONAN/DiscountCalculator.html)
 
-[Main Menu](menu.html)
+[Main Menu](https://tenjintangonan-gif.github.io/Programming-TANGONAN/menu.html)
