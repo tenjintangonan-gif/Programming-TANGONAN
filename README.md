@@ -11,3 +11,5 @@
 [JavaScript Math functions](https://tenjintangonan-gif.github.io/Programming-TANGONAN/Jscript.html)
 
 [Asynchronous Activity](https://tenjintangonan-gif.github.io/Programming-TANGONAN/DiscountCalculator.html)
+
+[Main Menu](menu.html)
