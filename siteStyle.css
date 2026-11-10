@@ -1,54 +1,86 @@
-        .navbar {
-            background-color: #74a9af; /* Primary Navy */
-            width: 100%;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .nav-list {
-            display: flex; /* Aligns items side-by-side horizontally */
-            flex-direction: row; /* Sets main axis left-to-right */
-            justify-content: flex-start; /* Packs items toward start of menu */
-            align-items: center; /* Centers items vertically */
-            list-style-type: none; /* Removes default list bullet points */
-            margin: 0; /* Clears browser default margins */
-            padding: 0; /* Clears browser default padding */
-        }
-        .nav-link {
-            display: block; /* Expands clickable box to fill padding */
-            padding: 14px 20px; /* Breathing room inside target box */
-            color: #054c68; /* High-contrast text color */
-            text-decoration: none; /* Removes standard underline */
-            font-family: 'Segoe UI', sans-serif;
-            font-size: 15px;
-            font-weight: 600;
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-        .nav-link:link {
-            color: #054c68;
-        }
-        /* 2. Visited link state */
-        .nav-link:visited {
-            color: #defffb;
-        }
-        /* 3. Mouse hover state */
-        .nav-link:hover {
-            background-color: #86c9c2;
-            color: #FFFFFF;
-        }
-        /* 4. Keyboard focus state (Accessibility / WCAG compliance) */
-        .nav-link:focus {
-            outline: 3px solid #06386d;
-            outline-offset: -3px;
-            background-color: #5c8191;
-        }
-        /* 5. Active click-press state */
-        .nav-link:active {
-            background-color: #74a9af;
-            transform: translateY(1px);
-        }
-        /* 6. Current page highlight class */
-        .nav-link.active {
-            background-color: #74a9af;
-        }
-        .title {
-            text-align: center;
-        }
+.navbar {
+    background-color: #3691a3; /* Primary Navy */
+    width: 100%;
+}
+.nav-list {
+    display: flex; /* Aligns items side-by-side horizontally */
+    flex-direction: row; /* Sets main axis left-to-right */
+    justify-content: flex-start; /* Packs items toward start of menu */
+    align-items: center; /* Centers items vertically */
+    list-style-type: none; /* Removes default list bullet points */
+    margin: 0; /* Clears browser default margins */
+    padding: 0; /* Clears browser default padding */
+}
+.nav-link {
+    display: block; /* Expands clickable box to fill padding */
+    padding: 14px 20px; /* Breathing room inside target box */
+    color: #054c68; /* High-contrast text color (applies to unvisited & visited) */
+    text-decoration: none; /* Removes standard underline */
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* Mouse hover state */
+.nav-link:hover {
+    background-color: #071742;
+    color: #FFFFFF;
+}
+/* Keyboard focus state (Accessibility / WCAG compliance) */
+.nav-link:focus {
+    outline: 3px solid #06386d;
+    outline-offset: -3px;
+    background-color: #5c8191;
+}
+/* Active click-press state */
+.nav-link:active {
+    background-color: #054c68;
+    transform: translateY(1px);
+}
+/* Current page highlight class */
+.nav-link.active {
+    background-color: #3691a3;
+}
+
+/* General links outside the navbar (overrides default blue & visited purple) */
+a {
+    color: aquamarine; /* Matches your footer text & pops against dark blue */
+    text-decoration: none;
+}
+
+.title {
+    text-align: center;
+}
+#mainFooter {
+    background-color: #054c68;
+    color: aquamarine;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Use 100dvh for better mobile browser support */
+    margin: 0;
+    background-color: #071742;
+    color: #ffffff; /* Ensures general body text is readable on dark blue */
+}
+footer {
+    margin-top: auto; /* Pushes the footer to the bottom */
+}
+.box {
+    height: 100px;
+    background-color: #054c68;
+    border-radius: 11px;
+    color: rgb(245, 246, 247);
+    
+    /* Centers content both horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Keeps multi-line text centered */
+    padding: 0 12px;    /* Prevents long text from touching the box edges */
+}
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
